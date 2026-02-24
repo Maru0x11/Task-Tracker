@@ -7,7 +7,7 @@ and support statuses (TODO, IN_PROGRESS, DONE), timestamps, and filtering by sta
 
 - Add tasks with a description
 - Update and delete tasks
-- Mark tasks as TODO, IN_PROGRESS, or DONE
+- Mark tasks as todo, in progress,completed or failed
 - List all tasks or filter by status
 - Tasks persist locally in JSON format
 
