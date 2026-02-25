@@ -1,6 +1,6 @@
-# TaskTracker
+# Task manager
 
-A CLI-based task tracker built in Java. Tasks are persisted locally in JSON format 
+A CLI-based task manager built in Java. Tasks are persisted locally in JSON format 
 and support statuses (TODO, IN_PROGRESS, DONE), timestamps, and filtering by status.
 
 ## Features
