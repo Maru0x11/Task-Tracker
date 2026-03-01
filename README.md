@@ -1,36 +1,90 @@
-# Task Tracker
+# TaskTracker
 
-A CLI-based task tracker built in Java. Tasks are persisted locally in JSON format 
-and support statuses (TODO, IN_PROGRESS, DONE), timestamps, and filtering by status.
+A CLI task management application built in Java — created as part of a Software Engineering course to learn a new language from scratch and apply OOP design principles.
 
-## Features
+---
 
-- Add tasks with a description
-- Update and delete tasks
-- Mark tasks as todo, in progress,completed or failed
-- List all tasks or filter by status
-- Tasks persist locally in JSON format
+## ✨ Features
 
-## Tech Stack
+- **Create tasks** with a name, description, and status
+- **Update tasks** — edit name, description, or status individually
+- **Delete tasks** by ID
+- **List all tasks** in your file
+- **Filter tasks by status** — see only what's TODO, in progress, completed, or failed
+- **JSON persistence** — tasks are saved to a `.json` file and loaded back on next run
+- **Colored CLI** — clean terminal UI with color-coded output
 
-- Java
-- Gson (JSON serialization)
-- Maven (Build System)
+---
 
-## Getting Started
+## 🗂️ Project Structure
+
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Java 17+
+- Java 11+
 - Maven
 
-### Installation
+### Build & Run
+
 ```bash
+# Clone the repo
 git clone https://github.com/Maru0x11/Task-Tracker.git
 cd Task-Tracker
-mvn compile
-mvn exec:java -Dexec.mainClass="com.tasktracker.Main"
+
+# Build the jar (includes Gson via maven-shade-plugin)
+mvn package
+
+# Run
+java -jar target/Taskstacker-1.0-SNAPSHOT.jar
 ```
 
-## License
+---
+
+## 🖥️ Usage
+
+On launch you'll get two options:
+
+```
+── Main Menu ──
+  1. Create a new JSON file
+  2. Load an existing JSON file
+  0. Exit
+```
+
+From there you can create or load a `.json` file and manage your tasks through the task menu.
+
+### Task Statuses
+
+| Status | Meaning |
+|---|---|
+| `TODO` | Not started yet |
+| `IN_PROGRESS` | Currently working on it |
+| `COMPLETED` | Done |
+| `FAILED` | Did not complete |
+
+---
+
+## 📦 Dependencies
+
+- [Gson](https://github.com/google/gson) `2.10` — JSON serialization
+
+---
+
+## 🧠 What I Learned
+
+This was my first Java project, coming from a C++ background. Key things I picked up:
+
+- Java OOP vs C++  no headers, no manual memory management, garbage collection
+- `try-with-resources` for automatic file cleanup
+- `HashMap` vs `ArrayList` tradeoffs
+- Gson and generic type deserialization with `TypeToken`
+- Separation of concerns and dependency injection in practice
+
+---
+
+## 📄 License
 
 MIT
