@@ -31,15 +31,6 @@ mvn compile
 mvn exec:java -Dexec.mainClass="com.tasktracker.Main"
 ```
 
-## Roadmap
-
-- [ ] JavaFX GUI
-- [ ] Task priorities
-- [ ] Due dates and reminders
-- [ ] Multiple task lists
-- [ ] Export to markdown  
-- [ ] Daily Todo list
-
 ## License
 
 MIT
