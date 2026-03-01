@@ -7,18 +7,12 @@ A CLI task management application built in Java — created as part of a Softwar
 ## ✨ Features
 
 - **Create tasks** with a name, description, and status
-- **Update tasks** — edit name, description, or status individually
+- **Update tasks**  edit name, description, or status individually
 - **Delete tasks** by ID
 - **List all tasks** in your file
-- **Filter tasks by status** — see only what's TODO, in progress, completed, or failed
-- **JSON persistence** — tasks are saved to a `.json` file and loaded back on next run
-- **Colored CLI** — clean terminal UI with color-coded output
-
----
-
-## 🗂️ Project Structure
-
-
+- **Filter tasks by status**  see only what's TODO, in progress, completed, or failed
+- **JSON persistence**  tasks are saved to a `.json` file and loaded back on next run
+- **Colored CLI**  clean terminal UI with color-coded output
 ---
 
 ## 🚀 Getting Started
@@ -84,6 +78,15 @@ This was my first Java project, coming from a C++ background. Key things I picke
 - Separation of concerns and dependency injection in practice
 
 ---
+🗺️ Roadmap
+
+ GUI  replace the CLI with a proper graphical interface
+ Markdown support  write and render task descriptions in Markdown
+ Note taking  attach notes to tasks or create standalone notes
+ API integration connect to external endpoints for sync and data persistence
+
+---
+
 
 ## 📄 License
 
