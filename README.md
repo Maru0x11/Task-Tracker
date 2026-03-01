@@ -37,30 +37,6 @@ java -jar target/Taskstacker-1.0-SNAPSHOT.jar
 
 ---
 
-## 🖥️ Usage
-
-On launch you'll get two options:
-
-```
-── Main Menu ──
-  1. Create a new JSON file
-  2. Load an existing JSON file
-  0. Exit
-```
-
-From there you can create or load a `.json` file and manage your tasks through the task menu.
-
-### Task Statuses
-
-| Status | Meaning |
-|---|---|
-| `TODO` | Not started yet |
-| `IN_PROGRESS` | Currently working on it |
-| `COMPLETED` | Done |
-| `FAILED` | Did not complete |
-
----
-
 ## 📦 Dependencies
 
 - [Gson](https://github.com/google/gson) `2.10` — JSON serialization
@@ -73,7 +49,6 @@ This was my first Java project, coming from a C++ background. Key things I picke
 
 - Java OOP vs C++  no headers, no manual memory management, garbage collection
 - `try-with-resources` for automatic file cleanup
-- `HashMap` vs `ArrayList` tradeoffs
 - Gson and generic type deserialization with `TypeToken`
 - Separation of concerns and dependency injection in practice
 
