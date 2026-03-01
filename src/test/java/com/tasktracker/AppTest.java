@@ -1,4 +1,4 @@
-package com.TaskManager;
+package com.tasktracker;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
