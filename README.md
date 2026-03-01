@@ -53,15 +53,14 @@ This was my first Java project, coming from a C++ background. Key things I picke
 - Separation of concerns and dependency injection in practice
 
 ---
-🗺️ Roadmap
+## 🗺️ Roadmap
 
- GUI  replace the CLI with a proper graphical interface
- Markdown support  write and render task descriptions in Markdown
- Note taking  attach notes to tasks or create standalone notes
- API integration connect to external endpoints for sync and data persistence
+- [ ] **GUI** — replace the CLI with a proper graphical interface
+- [ ] **Markdown support** — write and render task descriptions in Markdown
+- [ ] **Note taking** — attach notes to tasks or create standalone notes
+- [ ] **API integration** — connect to external endpoints for sync and data persistence
 
 ---
-
 
 ## 📄 License
 
